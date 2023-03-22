@@ -13,6 +13,7 @@ import close from "./close.svg";
 //Experience
 import amazon from "./company/amazon.png";
 import lorem from "./company/lorem.svg";
+import awsAcademy from "./company/aws-academy.png";
 
 //Balls
 import javascript from "./tech/javascript.png";
@@ -60,6 +61,7 @@ export {
   //Experience
   amazon,
   lorem,
+  awsAcademy,
   //Project
   github,
   kalamari,

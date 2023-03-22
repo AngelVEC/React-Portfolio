@@ -21,6 +21,7 @@ import {
   //Work experience
   amazon,
   lorem,
+  awsAcademy,
   //Project
   kalamari,
   portfolio,
@@ -119,54 +120,16 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Fullfillment Center Associate",
-    company_name: "Amazon",
-    icon: amazon,
+    title: "AWS Academy Graduate - AWS Academy Cloud Foundations",
+    company_name: "Amazon Web Services (AWS)",
+    icon: awsAcademy,
     iconBg: "#E6DEDD",
-    date: "October 2017 - Jul 2018",
+    date: "March 2023",
     points: [
-      "Picking items from the shelves using a handheld scanner.",
-      "Packing and unpacking of boxes being sent to and from the fulfillment center.",
-      "Storing received items throughout the facility.",
-    ],
-  },
-  {
-    title: "Lorem Ipsum",
-    company_name: "Lorem",
-    icon: lorem,
-    iconBg: "#E6DEDD",
-    date: "Present - Present",
-    points: [
-      "Nam scelerisque dui at aliquam eleifend.",
-      "Nam quis magna bibendum, hendrerit dui ut, cursus nulla.",
-      "Integer et purus vitae diam rhoncus auctor.",
-      "Proin interdum ex eget nulla mollis hendrerit.",
-    ],
-  },
-  {
-    title: "Lorem Ipsum",
-    company_name: "Lorem",
-    icon: lorem,
-    iconBg: "#E6DEDD",
-    date: "Present - Present",
-    points: [
-      "Nam scelerisque dui at aliquam eleifend.",
-      "Nam quis magna bibendum, hendrerit dui ut, cursus nulla.",
-      "Integer et purus vitae diam rhoncus auctor.",
-      "Proin interdum ex eget nulla mollis hendrerit.",
-    ],
-  },
-  {
-    title: "Lorem Ipsum",
-    company_name: "Lorem",
-    icon: lorem,
-    iconBg: "#E6DEDD",
-    date: "Present - Present",
-    points: [
-      "Nam scelerisque dui at aliquam eleifend.",
-      "Nam quis magna bibendum, hendrerit dui ut, cursus nulla.",
-      "Integer et purus vitae diam rhoncus auctor.",
-      "Proin interdum ex eget nulla mollis hendrerit.",
+      "Learn about AWS fundamental and cloud concept.",
+      "Securing AWS account, and giving least priviliges with Identity and Access management (IAM).",
+      "How Networking and routing works in AWS.",
+      "Learning about AWS compute service such as EC2, Lambda, Elastic Beanstalk, container service (Kubernetes & docker)",
     ],
   },
 ];
@@ -233,26 +196,8 @@ const projects = [
       },      
     ],
     image: portfolio,
-    source_code_link: "https://github.com/AngelVEC/public-secure-file-sharing/",
-    source_code_link2: "empty",
-  },
-  {
-    name: "Lorem Ipsum",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    tags: [
-      {
-        name: "Lorem",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "ipsum",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: logo,
-    source_code_link: "https://github.com/AngelVEC/public-secure-file-sharing/",
-    source_code_link2: "empty",
+    source_code_link: "https://github.com/AngelVEC/React-Portfolio",
+    source_code_link2: "https://www.ekkigunawan.com",
   },
 ];
 
