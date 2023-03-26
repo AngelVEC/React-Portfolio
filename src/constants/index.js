@@ -21,6 +21,7 @@ import {
   //Work experience
   amazon,
   lorem,
+  APIsec,
   awsAcademy,
   //Project
   kalamari,
@@ -119,6 +120,19 @@ const technologies = [
 ];
 
 const experiences = [
+  {
+    title: "API Penetration Testing - Certificate of Completion",
+    company_name: "APIsec University",
+    icon: APIsec,
+    iconBg: "#FFFFFF",
+    date: "March 2023",
+    points: [
+      "Discovering and analyzing API.",
+      "Endpoint Analysis and scanning API.",
+      "Finding and testing vulnerability.",
+      "Simulating API authentication attack, authorization attack such as BOLA and BFLA, improper assets management, mass assignment, server-side request forgery, and injection attack.",
+    ],
+  },
   {
     title: "AWS Academy Graduate - AWS Academy Cloud Foundations",
     company_name: "Amazon Web Services (AWS)",

@@ -13,6 +13,7 @@ import close from "./close.svg";
 //Experience
 import amazon from "./company/amazon.png";
 import lorem from "./company/lorem.svg";
+import APIsec from "./company/APIsec.png";
 import awsAcademy from "./company/aws-academy.png";
 
 //Balls
@@ -61,6 +62,7 @@ export {
   //Experience
   amazon,
   lorem,
+  APIsec,
   awsAcademy,
   //Project
   github,
